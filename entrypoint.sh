@@ -10,5 +10,9 @@ git checkout $3
 
 yarn
 
+cd apps/lucy
+
+yarn cypress:run --browser chrome
+
 time=$(date)
 echo "::set-output name=time::$time"
