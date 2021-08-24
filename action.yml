@@ -1,6 +1,6 @@
 # action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'DocCy'
+description: 'run cypress tests in docker'
 inputs:
   branch: 
     description: 'branch name'
@@ -10,7 +10,7 @@ inputs:
     required: true
 outputs:
   time: # id of output
-    description: 'The time we greeted you'
+    description: 'The time we ran the test'
 runs:
   using: 'docker'
   image: 'Dockerfile'
