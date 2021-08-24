@@ -1,12 +1,8 @@
 #!/bin/sh -l
 
-echo "Hello there $1"
+git clone $1
 
-echo "pull this $2"
-
-git clone $2
-
-git checkout $3
+git checkout $2
 
 yarn
 
