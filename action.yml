@@ -4,6 +4,7 @@ description: 'Greet someone and record the time'
 inputs:
   branch: 
     description: 'branch ref'
+    default: 'test'
     required: true
   who-to-greet:  # id of input
     description: 'Who to greet'
