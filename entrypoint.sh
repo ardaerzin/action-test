@@ -8,6 +8,7 @@ yarn
 
 cd apps/lucy
 
+yarn dev
 yarn cypress:run --browser chrome
 
 time=$(date)
