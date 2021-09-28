@@ -9,7 +9,7 @@ git checkout $2
 
 yarn
 
-cd apps/lucy
+cd ${3}
 
 yarn dev | yarn cypress:run --browser chrome
 
