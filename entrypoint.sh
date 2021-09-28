@@ -1,5 +1,6 @@
 #!/bin/sh -l
 
+echo "clone {$1}"
 git clone $1
 
 git checkout $2
