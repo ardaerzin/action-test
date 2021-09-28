@@ -1,7 +1,9 @@
 #!/bin/sh -l
 
 echo "clone {$1}"
-git clone $1
+git clone $1 test-folder
+
+cd test-folder
 
 git checkout $2
 
