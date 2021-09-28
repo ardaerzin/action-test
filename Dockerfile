@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM alpine:3.10
+FROM node:12-alpine
 
 RUN apk add --no-cache git
 RUN apk --no-cache add nodejs yarn --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
