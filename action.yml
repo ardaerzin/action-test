@@ -2,6 +2,18 @@
 name: 'DocCy'
 description: 'run cypress tests in docker'
 inputs:
+  orthoCalendlyLink: 
+    description: 'orthoCalendlyLink'
+    required: true
+  calendlyLink: 
+    description: 'calendlyLink'
+    required: true
+  apiUrl: 
+    description: 'public api server address'
+    required: true
+  folder: 
+    description: 'project folder path'
+    required: true
   branch: 
     description: 'branch name'
     required: true

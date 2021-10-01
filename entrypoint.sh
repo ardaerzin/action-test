@@ -20,7 +20,7 @@ nohup yarn dev > /dev/null 2>&1 &
 
 yarn cypress:run --browser chrome
 
-echo "are we done yet?"
 STATUS=$?
-echo "Status: ${STATUS}"
+
+echo "Job Status: ${STATUS}"
 echo "::set-output name=status::$STATUS"
