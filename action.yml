@@ -9,8 +9,8 @@ inputs:
     description: 'repo name'
     required: true
 outputs:
-  time: # id of output
-    description: 'The time we ran the test'
+  status: # id of output
+    description: 'Final status of the job'
 runs:
   using: 'docker'
   image: 'Dockerfile'

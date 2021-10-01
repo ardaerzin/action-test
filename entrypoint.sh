@@ -18,5 +18,6 @@ echo "NEXT_PUBLIC_ORTHO_CALENDLY_LINK=${6}" >> .env
 
 yarn dev | yarn cypress:run --browser chrome
 
-time=$(date)
-echo "::set-output name=time::$time"
+STATUS=$?
+echo "Status: ${STATUS}"
+echo "::set-output name=status::$STATUS"
