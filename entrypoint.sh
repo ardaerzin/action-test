@@ -16,7 +16,9 @@ echo "NEXT_PUBLIC_API_URL=${4}" >> .env
 echo "NEXT_PUBLIC_CALENDLY_LINK=${5}" >> .env
 echo "NEXT_PUBLIC_ORTHO_CALENDLY_LINK=${6}" >> .env
 
-yarn dev | yarn cypress:run --browser chrome
+nohup yarn dev > /dev/null 2>&1 &
+
+yarn cypress:run --browser chrome
 
 echo "are we done yet?"
 STATUS=$?
