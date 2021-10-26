@@ -16,6 +16,7 @@ echo "NEXT_PUBLIC_API_URL=${4}" >> .env
 echo "NEXT_PUBLIC_CALENDLY_LINK=${5}" >> .env
 echo "NEXT_PUBLIC_ORTHO_CALENDLY_LINK=${6}" >> .env
 echo "WAIT_ON_TIMEOUT=1000000" >> .env
+echo "DEBUG=start-server-and-test" >> .env
 
 yarn ci
 
