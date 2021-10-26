@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM cypress/included:8.5.0
+FROM cypress/included:8.7.0
 
 # RUN apk add --no-cache git
 # RUN apk --no-cache add nodejs yarn --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
